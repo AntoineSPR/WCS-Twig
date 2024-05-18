@@ -10,9 +10,7 @@
 </head>
 <body>
     <header>
-        <nav>
-            {% block navbar %}{% endblock %}
-        </nav>
+        {% include 'component/_navbar.html.twig' %}
     </header>
     <main>
     {% block content %}{% endblock %}
